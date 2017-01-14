@@ -21,8 +21,14 @@
             com.nfmedia.springmvc.views,
             com.nfmedia.springmvc.dao,
             com.nfmedia.springmvc.test,
+<<<<<<< HEAD
             com.nfmedia.springmvc.interceptor"
     />-->
+=======
+            com.nfmedia.springmvc.interceptor,
+            com.nfmedia.springmvc.exception"
+    />
+>>>>>>> master
 
     <!-- 配置视图解析器 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
