@@ -18,5 +18,7 @@
     <a href="user/forward">forwardview</a>
     <br>
     <a href="user/redirect">redirectview</a>
+    <br>
+    <a href="/testExceptionHandlerExceptionResolver">testExceptionHandlerExceptionResolver</a>
   </body>
 </html>
