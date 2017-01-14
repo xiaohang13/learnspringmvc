@@ -16,7 +16,8 @@
             com.nfmedia.springmvc.views,
             com.nfmedia.springmvc.dao,
             com.nfmedia.springmvc.test,
-            com.nfmedia.springmvc.interceptor"
+            com.nfmedia.springmvc.interceptor,
+            com.nfmedia.springmvc.exception"
     />
 
     <!-- 配置视图解析器 -->
