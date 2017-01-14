@@ -10,14 +10,19 @@
         http://www.springframework.org/schema/mvc
         http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd">
     <!-- 配置包扫描 -->
-    <context:component-scan
+    <context:component-scan base-package="com.nfmedia.springmvc">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+        <context:include-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice"/>
+    </context:component-scan>
+
+    <!--<context:component-scan
             base-package="
             com.nfmedia.springmvc.handler,
             com.nfmedia.springmvc.views,
             com.nfmedia.springmvc.dao,
             com.nfmedia.springmvc.test,
             com.nfmedia.springmvc.interceptor"
-    />
+    />-->
 
     <!-- 配置视图解析器 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">

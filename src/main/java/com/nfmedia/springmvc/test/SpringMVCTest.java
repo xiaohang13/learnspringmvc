@@ -19,6 +19,10 @@ import java.util.Collection;
 @Controller
 public class SpringMVCTest {
 
+    public SpringMVCTest() {
+        System.out.println("SpringMVCTest.......");
+    }
+
     @Autowired
     private EmployeeDao employeeDao;
 
